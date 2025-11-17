@@ -3,18 +3,11 @@ description: ✂️🔗 This is a template repository for making URL Shorteners 
 logo: /assets/img/logo.png
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-minima
-
+theme: minima  # Ganti ke minima (built-in, fix error theme)
 permalink: /:slug/
-
 plugins:
   - jekyll-redirect-from
-
 github: [metadata]
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - README.md
   - LICENSE
